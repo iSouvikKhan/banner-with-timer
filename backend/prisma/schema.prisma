@@ -1,0 +1,15 @@
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Entry {
+  id              Int      @id @default(autoincrement())
+  description     String
+  url             String
+  providedDatetime DateTime @default(now())
+}
