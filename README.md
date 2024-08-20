@@ -2,7 +2,7 @@
 - `npm i`
 - `node index.js`
 
-## navigate to frontend folderr
+## navigate to frontend folder
 - `npm i`
 - `npm run dev`
 
